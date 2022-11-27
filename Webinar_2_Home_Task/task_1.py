@@ -17,3 +17,4 @@ result_list = [my_int, my_float, my_str, my_bool,
                my_none, my_list, my_tuple, my_set, my_dict]
 for i in result_list:
     print(f'{i} is {type(i)}')
+    
