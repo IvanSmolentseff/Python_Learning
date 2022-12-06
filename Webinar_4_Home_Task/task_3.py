@@ -2,5 +2,5 @@
 Необходимо решить задание в одну строку.
 Подсказка: использовать функцию range() и генератор.'''
 
-my_list = [el for el in range(20, 240) if el % 20 == 0 or el % 21 == 0]
+my_list = [el for el in range(20, 241) if el % 20 == 0 or el % 21 == 0]
 print(my_list)
