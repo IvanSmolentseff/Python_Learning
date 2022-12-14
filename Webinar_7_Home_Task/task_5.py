@@ -25,7 +25,7 @@ class Pen(Stationary):
     '''Derived class'''
 
     def draw(self):
-        return f'Rendering by pen "{self.title}" is not bad'
+        return f'Rendering by pen "{self.title}" is not so bad'
 
 
 class Pencil(Stationary):
@@ -42,7 +42,7 @@ class Handle(Stationary):
         return f'Rendering by handle "{self.title}" is best'
 
 
-pen = Pen('Berlingo')
+pen = Pen('Parker 5th IM Premium Shiny Chrome F522')
 pencil = Pencil('Erich Krause')
 handle = Handle('Sketch&Art')
 print(pen.draw())
