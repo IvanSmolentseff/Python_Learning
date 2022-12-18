@@ -45,9 +45,9 @@ class Cell:
         '''
         row = []
         for _ in range(self.quantity // cells_row):
-            row.append("*" * cells_row)
+            row.append('*' * cells_row)
         if self.quantity % cells_row != 0:
-            row.append("*" * (self.quantity % cells_row))
+            row.append('*' * (self.quantity % cells_row))
         return '\\n'.join(row)
 
 
