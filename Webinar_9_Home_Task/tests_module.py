@@ -45,21 +45,12 @@ class TestFunctions(unittest.TestCase):
         '''
         self.failureException(dbz_test_1(5, 0), 'Cannot divide by zero')
 
-    def testraises_1(self):
-        '''
-        test raises
-        :return: result
-        '''
-        self.assertRaises(DivisionByZero, dbz_test_1, 5, 0)
-        # не проходит тест, потому что исключение было перехвачено
-
-    def testraises_2(self):
+    def testraises(self):
         '''
         test raises
         :return: result
         '''
         self.assertRaises(DivisionByZero, dbz_test_2, 5, 0)
-        # тест проходит, исключение не перехвачено и объявлено
 
     def testmyfunccount1(self):
         '''
