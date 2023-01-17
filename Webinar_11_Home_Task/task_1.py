@@ -17,7 +17,7 @@ def my_func(my_list):
     '''
     for item in my_list:
         print(f'\nVariable type: {type(item)}')
-        print(f'Variable content: {format(item)}')
+        print(f'Variable content: {item}')
 
 
 my_func(variable_1)
